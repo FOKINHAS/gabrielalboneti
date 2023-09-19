@@ -287,6 +287,11 @@ footer{
         padding-right: 200px;
     }
 
+    section{
+        display: block;
+        padding-left: 200px;
+    }
+
     
 
     
