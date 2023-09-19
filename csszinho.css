@@ -256,78 +256,25 @@ footer{
 
 
 @media screen and (min-width: 360px) and (max-width: 740px) {
-    /* Modificações para telas entre 360px e 740px */
-
-    body {
-        background-position-x: 0;
-        background-size: cover;
+    .container{
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: block;
     }
 
-    div.menus {
-        width: 100%;
-        height: auto;
+    img{
+    display: block;
     }
 
-    nav.menu {
-        padding-left: 5%; /* Use porcentagem para o recuo esquerdo */
-        text-align: center;
+    div{
+        display: block;
     }
 
-    nav ul {
-        margin-left: 5%; /* Use porcentagem para o recuo esquerdo */
-        width: 90%; /* Use porcentagem para a largura do menu UL */
+    footer{
+        display: block;
     }
-
-    div.inicial {
-        margin-top: 5%;
-        margin-left: 5%;
-        font-size: 3vw; /* Use viewport width (vw) para dimensionar o texto */
-    }
-
-    /* Ajustes para caixas e textos */
-
-    .box,
-    .box2,
-    .box3,
-    .box4 {
-        width: 90%; /* Use porcentagem para a largura das caixas */
-        margin: 5% auto; /* Centralize verticalmente e use porcentagem para as margens */
-        float: none;
-        text-align: center; /* Centralize o texto nas caixas */
-    }
-
-    .imgBox2 {
-        width: 80%; /* Use porcentagem para a largura das imagens */
-        height: auto;
-    }
-
-    p.ebom {
-        margin: 2%; /* Use porcentagem para o espaçamento interno do texto nas caixas */
-    }
-
-    p.ebom2 {
-        margin: 2%; /* Use porcentagem para o espaçamento interno do texto nas caixas */
-        font-size: 2vw; /* Use viewport width (vw) para dimensionar o texto */
-    }
-
-    /* Ajustes para outros elementos */
-
-    .conteudo {
-        margin-top: 5%;
-        margin-left: 5%;
-        width: 90%; /* Use porcentagem para a largura do conteúdo */
-    }
-
-    /* Ajustes para o rodapé */
-
-    .rodape {
-        width: 100%;
-        padding-left: 5%; /* Use porcentagem para o recuo esquerdo */
-        text-align: center;
-        margin-top: 5%;
-    }
-
-    /* Ajuste outros estilos conforme necessário para telas menores */
+    
 }
 
 
