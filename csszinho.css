@@ -473,10 +473,11 @@ footer{
 
         
         nav.menu {
-            width: 100%;
             background: radial-gradient(#32CD32, #00FF00);
-            border-radius: 0;
+            border-radius: 20px;
         }
+
+        
     }
     
 
