@@ -255,50 +255,232 @@ footer{
 
 
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    .container{
-    margin: auto;
-    padding-left: 25px;
-    padding-right: 25px;
-    display: block;
+@media screen and (min-width: 810px) and (max-width: 1080px) {
+    
+    div.menus {
+        height: auto;
     }
 
-    img{
-    display: block;
+    .imglogo {
+        float: none;
+        text-align: center;
+        margin-bottom: 20px;
     }
 
-    div{
+    
+    nav.menu {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    nav ul {
+        width: auto;
+        margin-left: 0;
+        text-align: center;
+        background: none;
+    }
+
+    nav ul li {
+        margin-left: 0;
+        margin-right: 20px; 
+    }
+
+    
+    img.imgInicial {
+        width: 100%;
+        max-width: 600px; 
+        margin: 50px auto; 
+    }
+
+    
+    div.inicial {
+        margin-top: 300px;
+        margin:auto; 
+        font-size: 30px;
+        text-align: center;
+    }
+
+    
+    
+    .box3 {
+        width: 100%;
+        max-width: 100%;
+        margin: 20px 0;
+        float: none;
+        text-align: center;
         display: block;
-        
+
     }
 
-    footer{
+    
+    p.ebom {
+        margin: 0 20px; 
+        font-size: 18px;
+    }
+
+    p.ebom2 {
+        margin: 20px;
+        font-size: 16px; 
+    }
+
+    
+    .conteudo {
+        margin: 20px auto; 
+        width: 600px;
+        max-width: 100%;
+        height: 600px;
+        padding: 20px;
+    }
+
+    
+    footer {
+        width: 100%;
+        padding-left: 0;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    
+
+    .box2, .box{
+        width: 100%;
+        max-width: 100%;
+        margin: 20px 0;
+        text-align: center;
+        float: left;
         display: block;
     }
 
     body{
-        padding: 0 30px 0 30px;
-        display: block;
+        background: none;
+        background-color: gray;
     }
 
-    li, p, h1{
-        font-size: 16px;
-        padding-left: -100px;
-        padding-right: 200px;
+    @media screen and (min-width: 810px) and (max-width: 1080px) {
+        body {
+            background-image: none;
+            background-color: gray;
+        }
+
+        nav.menu {
+            text-align: center;
+        }
+
+        nav.menu ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin-top: 20px;
+        }
+
+        nav.menu ul li {
+            margin: 0 20px;
+        }
+
+        img.imgInicial {
+            width: 100%;
+            max-width: 600px;
+            margin: 20px auto;
+            display: block;
+        }
+
+        div.inicial {
+            text-align: center;
+            font-size: 24px;
+            margin-top: 20px;
+        }
+
+        .container {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .box, .box2, .box3, .box4 {
+            width: 45%;
+            float: left;
+            margin: 20px 2.5%;
+            text-align: center;
+            background-color: wheat;
+            border-radius: 10px;
+            box-shadow: 0 10px 15px 5px black;
+            padding: 20px;
+        }
+
+        .box img, .box2 img, .box3 img, .box4 img {
+            width: 100%;
+            max-width: 200px;
+            height: auto;
+            margin-top: 20px;
+        }
+
+        p.ebom {
+            font-size: 18px;
+            margin: 20px 0;
+        }
+
+        p.ebom2 {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+
+        .btn {
+            display: inline-block;
+            background: radial-gradient(#00FF00, #32CD32);
+            color: #fff;
+            padding: 8px 30px;
+            border-radius: 30px;
+            transition: background 0.5s;
+            margin-top: 20px;
+        }
+
+        div.inicial {
+            text-align: center;
+            font-size: 30px;
+            margin-top: 50px; 
+        }
+
+        
+        nav.menu ul li:first-child a {
+            padding: 10px 20px; 
+            border-radius: 30px;
+            background-color: #228B22;
+            color: #fff;
+            transition: background 0.4s;
+        }
+
+        nav.menu ul li:first-child a:hover {
+            background-color: #32CD32;
+        }
+
+        footer {
+            width: 1000px;
+            text-align: center;
+            position: static;
+            clear: both; 
+            margin-top: 20px; 
+            padding: 20px 0 0 50px; 
+            background: radial-gradient(#111111, #000000);
+            color: whitesmoke;
+        }
+
+        
+       
+        div.inicial {
+            text-align: center;
+            font-size: 30px;
+            margin-top: 400px; 
+        }
+
+        
+        nav.menu {
+            width: 100%;
+            background: radial-gradient(#32CD32, #00FF00);
+            border-radius: 0;
+        }
     }
-
-    section{
-        display: block;
-        padding-left: 200px;
-    }
-
     
 
-    
-    
 }
-
-
 
 
 
