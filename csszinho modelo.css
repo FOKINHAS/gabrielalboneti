@@ -167,3 +167,22 @@ footer{
     padding-left: 800px;
     padding-bottom: 100px;
 }
+
+@media screen and (min-width: 810px) and (max-width: 1080px) {
+    @media screen and (min-width: 810px) and (max-width: 1080px) {
+    
+        nav.menu {
+            padding-left: 300px; 
+        }
+
+        footer {
+            text-align: center;
+            position: relative; 
+            clear: both;
+            margin-top: 20px; 
+            padding: 20px 0;
+            background: radial-gradient(#111111, #000000);
+            color: whitesmoke;
+            width: 100%; 
+        }
+}
