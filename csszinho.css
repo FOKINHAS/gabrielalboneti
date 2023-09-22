@@ -254,7 +254,7 @@ footer{
 }
 
 
-
+/*ipad ipadOS*/
 @media screen and (min-width: 810px) and (max-width: 1080px) {
     
     div.menus {
