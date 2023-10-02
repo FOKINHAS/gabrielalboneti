@@ -3,6 +3,10 @@
     padding: 0px
 }
 
+body{
+    background-color: gray;
+}
+
  .containe{
     height: 100jh;
     width: 100%;
