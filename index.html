@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>PokeArt</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="icomoon/icomoon.css">
+    <link rel="stylesheet" type="text/css" media="all" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/vendor.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/AYAYAICON.png">
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+
+    <style>
+      .item-title{
+        color: black;
+      }
+
+      body{
+        background-color: black;
+      }
+      .primary-nav padding-small{
+        padding-bottom: ;
+      }
+      p{
+        color: dimgray;
+      }
+      h2{
+        color: white;
+      }
+      h3{
+        color: white;
+      }
+      .categories{
+        color: black;
+      }
+      .banner-title{
+        color: white;
+      }
+      .item-anchor{
+        color: white;
+      }
+      .navbar{
+        color:;
+      }
+      
+      
+      
+    </style>
+  </head>
+  <body>
+
+    <div class="preloader-wrapper">
+      <div class="preloader">
+      </div>
+    </div>
+
+    <div class="search-popup">
+      <div class="search-popup-container">
+
+        <form role="search" method="get" class="search-form" action="">
+          <input type="search" id="search-form" class="search-field" placeholder="Clique para digitar" value="" name="s" />
+          <button type="submit" class="search-submit"><a href="#"><i class="icon icon-search"></i></a></button>
+        </form>
+
+        <h5 class="cat-list-title">Categorias</h5>
+        
+        <ul class="cat-list">
+          <li class="cat-list-item">
+            <a href="shop.html" title="Men Jackets">Masculinas</a>
+          </li>
+          <li class="cat-list-item">
+            <a href="shop.html" title="Fashion">Femininas</a>
+          </li>
+          <li class="cat-list-item">
+            <a href="shop.html" title="Casual Wears">Chainsaw man</a>
+          </li>
+          <li class="cat-list-item">
+            <a href="shop.html" title="Women">Jujutsu Kaisen</a>
+          </li>
+          <li class="cat-list-item">
+            <a href="shop.html" title="Trending">attack on titan</a>
+          </li>
+          <li class="cat-list-item">
+            <a href="shop.html" title="Hoodie">Boku no hero</a>
+          </li>
+          <li class="cat-list-item">
+            <a href="shop.html" title="Kids">Outros</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <header id="header">
+      <div id="header-wrap">
+        <nav class="secondary-nav border-bottom">
+          <div class="container">
+            <div class="row d-flex align-items-center">
+              <div class="col-md-4 header-contact">
+                <p>Ligue para <strong>+55 19 98853-2984</strong>
+                </p>
+              </div>
+              <div class="col-md-4 shipping-purchase text-center">
+                <p>Promoções de até 40% sem juros!</p>
+              </div>
+              <div class="col-md-4 col-sm-12 user-items">
+                <ul class="d-flex justify-content-end list-unstyled">
+                  <li class="user-items search-item pe-3">
+                    <a href="#" class="search-button">
+                      <i class="icon icon-search"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <nav class="primary-nav padding-small">
+          <div class="container">
+            <div class="row d-flex align-items-center">
+              <div class="col-lg-2 col-md-2">
+                <div class="main-logo">
+                  <a href="index.html">
+                    <img src="img/logo(1).png" width="100" height="100" alt="logo">
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-10 col-md-10">
+                <div class="navbar">
+
+                  <div id="main-nav" class="stellarnav d-flex justify-content-end right">
+                    <ul class="menu-list">
+
+                      <li class="menu-item has-sub">
+                        <a href="index.html" class="item-anchor active d-flex align-item-center" data-effect="Home">Home</a>
+                        
+                      </li>
+
+                      <li><a href="about.html" class="item-anchor" data-effect="Sobre">Sobre</a></li>
+
+                      <li class="menu-item has-sub">
+                        <a href="shop.html" class="item-anchor d-flex align-item-center" data-effect="Loja">Loja<i class="icon icon-chevron-down"></i></a>
+                        <ul class="submenu">
+                          <li><a href="shop.html" class="item-anchor">Shop</a></li>
+                          <li><a href="shop.html" class="item-anchor">Loja <span class="text-primary">M</span></a></li>
+                          <li><a href="shop2.html" class="item-anchor">Loja <span class="text-primary">F</span></a></li>
+                          
+                        </ul>
+                      </li>
+
+                      <li class="menu-item has-sub">
+                        <a href="#" class="item-anchor d-flex align-item-center" data-effect="Parceiros">Parceiros<i class="icon icon-chevron-down"></i></a>
+                        <ul class="submenu">
+                          <li><a href="blog.html" class="item-anchor">Parceiros<span class="text-primary"> 1DSAA</span></a></li>
+                          <li><a href="thank-you.html" class="item-anchor">Thankyou</a></li>
+                        </ul>
+                      </li>
+
+                      
+
+                      <li><a href="contact.html" class="item-anchor" data-effect="Contact">Contato</a></li>
+
+                    </ul>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section id="billboard" class="overflow-hidden">
+
+      <button class="button-prev">
+        <i class="icon icon-chevron-left"></i>
+      </button>
+      <button class="button-next">
+        <i class="icon icon-chevron-right"></i>
+      </button>
+      <div class="swiper main-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" style="background-image: url('img/banner\ bakugo.jpg');background-repeat: no-repeat;background-size: cover;background-position: center;">
+            <div class="banner-content">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h2 class="banner-title">PokesArt</h2>
+                    <p>Vista a sua essência com estilo: personalize sua história em cada estampa, tornando cada camiseta única como você!</p>
+                    <div class="btn-wrap">
+                      <a href="shop.html" class="btn btn-light btn-medium d-flex align-items-center" tabindex="0">Loja<i class="icon icon-arrow-io"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide" style="background-image: url('img/banner\ eren.jpg');background-repeat: no-repeat;background-size: cover;background-position: center;">
+            <div class="banner-content">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h2 class="banner-title">Coleções</h2>
+                    <p>Adquira sua coleção para todas as idades, generos, gostos, estilos!</p>
+                    <div class="btn-wrap">
+                      <a href="shop.html" class="btn btn-light btn-light-arrow btn-medium d-flex align-items-center" tabindex="0"> Loja<i class="icon icon-arrow-io"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="featured-products" class="product-store padding-large">
+      <div class="container">
+        <div class="section-header d-flex flex-wrap align-items-center justify-content-between">
+          <h2 class="section-title">Produtos em Destaque</h2>            
+          <div class="btn-wrap">
+            <a href="shop.html" class="d-flex align-items-center">Ver todos os produtos <i class="icon icon icon-arrow-io"></i></a>
+          </div>            
+        </div>
+        <div class="swiper product-swiper overflow-hidden">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="product-item">
+                <div class="image-holder">
+                  <img src="imgEstampa/jjk estmp1.jpeg" alt="Books" class="product-image">
+                </div>
+                <div class="cart-concern">
+                  <div class="cart-button d-flex justify-content-between align-items-center">
+                    <button type="button" class="btn-wrap cart-link d-flex align-items-center">adicionar ao carrinho<i class="icon icon-arrow-io"></i>
+                    </button>
+                    <button type="button" class="view-btn tooltip
+                        d-flex">
+                      <i class="icon icon-screen-full"></i>
+                      <span class="tooltip-text">Visualizar</span>
+                    </button>
+                    <button type="button" class="wishlist-btn">
+                      <i class="icon icon-heart"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="product-detail">
+                  <h3 class="product-title">
+                    <a href="single-product.html">Jujutsu Kaisen Gojo/Itadori</a>
+                  </h3>
+                  <span class="item-price text-primary">R$ 74,99</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product-item">
+                <div class="image-holder">
+                  <img src="imgEstampa/haikyuu estmp1.webp" alt="Books" class="product-image">
+                </div>
+                <div class="cart-concern">
+                  <div class="cart-button d-flex justify-content-between align-items-center">
+                    <button type="button" class="btn-wrap cart-link d-flex align-items-center">adicionar ao carrinho<i class="icon icon-arrow-io"></i>
+                    </button>
+                    <button type="button" class="view-btn tooltip
+                        d-flex">
+                      <i class="icon icon-screen-full"></i>
+                      <span class="tooltip-text">Visualizar</span>
+                    </button>
+                    <button type="button" class="wishlist-btn">
+                      <i class="icon icon-heart"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="product-detail">
+                  <h3 class="product-title">
+                    <a href="single-product.html">haikyuu Hinata camisa preta</a>
+                  </h3>
+                  <span class="item-price text-primary">R$ 49,00</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product-item">
+                <div class="image-holder">
+                  <img src="imgEstampa/op estmpa1.webp" alt="Books" class="product-image">
+                </div>
+                <div class="cart-concern">
+                  <div class="cart-button d-flex justify-content-between align-items-center">
+                    <button type="button" class="btn-wrap cart-link d-flex align-items-center">adicionar ao carrinho<i class="icon icon-arrow-io"></i>
+                    </button>
+                    <button type="button" class="view-btn tooltip
+                        d-flex">
+                      <i class="icon icon-screen-full"></i>
+                      <span class="tooltip-text">Visualizar</span>
+                    </button>
+                    <button type="button" class="wishlist-btn">
+                      <i class="icon icon-heart"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="product-detail">
+                  <h3 class="product-title">
+                    <a href="single-product.html">One piece Trafalgar Law branca</a>
+                  </h3>
+                  <span class="item-price text-primary">R$ 59,90</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product-item">
+                <div class="image-holder">
+                  <img src="imgEstampa/bknhEstampa home.jpeg" alt="Books" class="product-image">
+                </div>
+                <div class="cart-concern">
+                  <div class="cart-button d-flex justify-content-between align-items-center">
+                    <button type="button" class="btn-wrap cart-link d-flex align-items-center">adicionar ao carrinho<i class="icon icon-arrow-io"></i>
+                    </button>
+                    <button type="button" class="view-btn tooltip
+                        d-flex">
+                      <i class="icon icon-screen-full"></i>
+                      <span class="tooltip-text">Visualizar</span>
+                    </button>
+                    <button type="button" class="wishlist-btn">
+                      <i class="icon icon-heart"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="product-detail">
+                  <h3 class="product-title">
+                    <a href="single-product.html">Boku no hero personagens preta</a>
+                  </h3>
+                  <span class="item-price text-primary">R$ 49,90</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section id="latest-collection">
+      <div class="container">
+        <div class="product-collection row">
+          <div class="col-lg-7 col-md-12 left-content">
+            <div class="collection-item">
+              <div class="products-thumb">
+                <img src="img/estampa1.jpeg" alt="collection item" class="large-image image-rounded">
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 product-entry">
+                <div class="categories">Coleção casual</div>
+                <h3 class="item-title">Variados</h3>
+                <p>Conheça a edição casual da loja, com diversos estilos, cores e tonalidades</p>  
+                <div class="btn-wrap">
+                  <a href="shop.html" class="d-flex align-items-center"> Loja <i class="icon icon-arrow-io"></i>
+                  </a>
+                </div>
+              </div> 
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-12 right-content flex-wrap">
+            <div class="collection-item top-item">
+              <div class="products-thumb">
+                <img src="img/jjk estampa.webp" alt="collection item" class="small-image image-rounded">
+              </div>
+              <div class="col-md-6 product-entry">
+                <div class="categories">As melhores</div>
+                <h3 class="item-title">Camisas masculinas</h3>
+                <div class="btn-wrap">
+                  <a href="shop.html" class="d-flex align-items-center"> Loja<i class="icon icon-arrow-io"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="collection-item bottom-item">
+              <div class="products-thumb">
+                <img src="img/feminino estmp.webp" alt="collection item" class="small-image image-rounded">
+              </div>
+              <div class="col-md-6 product-entry">
+                <div class="categories">As melhores</div>
+                <h3 class="item-title">Camisas femininas</h3>
+                <div class="btn-wrap">
+                  <a href="shop2.html" class="d-flex align-items-center"> Loja <i class="icon icon-arrow-io"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="subscribe" class="padding-large">
+      <div class="container">
+        <div class="row">
+          <div class="block-text col-md-6">
+            <div class="section-header">
+              <h2 class="section-title">Cupons de até 30% de desconto!</h2>
+            </div>
+            <p>Insira seu email e receba cupons descontos exclusivos semanalmente para suas compras!</p>
+          </div>
+          <div class="subscribe-content col-md-6">
+            <form id="form" class="d-flex justify-content-between">
+              <input type="text" name="email" placeholder="Enter your email addresss here">
+              <button class="btn btn-dark">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section id="testimonials" class="padding-large no-padding-bottom">
+      <div class="container">
+        <div class="reviews-content">
+          <div class="row d-flex flex-wrap">
+            <div class="col-md-2">
+              <div class="review-icon">
+                <i class="icon icon-right-quote"></i>
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="swiper testimonial-swiper overflow-hidden">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="testimonial-detail">
+                      <h3>“A elegância não é nem uma questão de ter um casaco, nem uma questão de ter dinheiro.”</h3>
+                      <div class="author-detail">
+                        <div class="name">Karl Lagerfeld</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="testimonial-detail">
+                      <h3>“Não se deixe levar pela moda. Se for seguí-la fielmente, você vai se sentir obrigado a trocar o guarda-roupa a cada quatro meses. Vá conhecer a fonte, viaje atrás do que te inspira, como os grandes artistas e os românticos fazem.”</h3>
+                      <div class="author-detail">
+                        <div class="name">Camila Morton e Manolo Blahnick</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-arrows">
+                <button class="prev-button">
+                  <i class="icon icon-arrow-left"></i>
+                </button>
+                <button class="next-button">
+                  <i class="icon icon-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="flash-sales" class="product-store padding-large">
+      
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Promoções</h2>
+        </div>
+        <div class="swiper product-swiper flash-sales overflow-hidden">
+
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="product-item">
+                <img src="imgEstampa/bknh estampa1.webp" alt="Books" class="product-image">
+                <div class="cart-concern">
+                  <div class="cart-button d-flex justify-content-between align-items-center">
+                    <button type="button" class="btn-wrap cart-link d-flex align-items-center">adicionar ao carrinho<i class="icon icon-arrow-io"></i>
+                    </button>
+                    <button type="button" class="view-btn tooltip
+                        d-flex">
+                      <i class="icon icon-screen-full"></i>
+                      <span class="tooltip-text">Visualizar</span>
+                    </button>
+                    <button type="button" class="wishlist-btn">
+                      <i class="icon icon-heart"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="discount">30% Off</div>
+                <div class="product-detail">
+                  <h3 class="product-title">
+                    <a href="single-product.html">Boku no hero bakugou preta</a>
+                  </h3>
+                  <div class="item-price text-primary">
+                    <del class="prev-price">R$ 59,99</del>R$ 41,99
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product-item">
+                <img src="imgEstampa/chainsaw man estampa1.webp" alt="Books" class="product-image">
+                <div class="cart-concern">
+                  <div class="cart-button d-flex justify-content-between align-items-center">
+                    <button type="button" class="btn-wrap cart-link d-flex align-items-center">adicionar ao carrinho<i class="icon icon-arrow-io"></i>
+                    </button>
+                    <button type="button" class="view-btn tooltip
+                        d-flex">
+                      <i class="icon icon-screen-full"></i>
+                      <span class="tooltip-text">Visualizar</span>
+                    </button>
+                    <button type="button" class="wishlist-btn">
+                      <i class="icon icon-heart"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="discount">20% Off</div>
+                <div class="product-detail">
+                  <h3 class="product-title">
+                    <a href="single-product.html">Chainsaw man Power branca</a>
+                  </h3>
+                  <div class="item-price text-primary">
+                    <del class="prev-price">R$ 49,90</del>R$ 39,90
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product-item">
+                <img src="imgEstampa/tokyoghoul estampa1.webp" alt="Books" class="product-image">
+                <div class="cart-concern">
+                  <div class="cart-button d-flex justify-content-between align-items-center">
+                    <button type="button" class="btn-wrap cart-link d-flex align-items-center">adicionar ao carrinho<i class="icon icon-arrow-io"></i>
+                    </button>
+                    <button type="button" class="view-btn tooltip
+                        d-flex">
+                      <i class="icon icon-screen-full"></i>
+                      <span class="tooltip-text">Visualizar</span>
+                    </button>
+                    <button type="button" class="wishlist-btn">
+                      <i class="icon icon-heart"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="discount">30% Off</div>
+                <div class="product-detail">
+                  <h3 class="product-title">
+                    <a href="single-product.html">Tokyo ghoul Kaneki preta</a>
+                  </h3>
+                  <div class="item-price text-primary">
+                    <del class="prev-price">R$ 49,90</del>R$ 34,90
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product-item">
+                <img src="imgEstampa/salior moon estampa 1.jpeg" alt="Books" class="product-image">
+                <div class="cart-concern">
+                  <div class="cart-button d-flex justify-content-between align-items-center">
+                    <button type="button" class="btn-wrap cart-link d-flex align-items-center">adicionar ao carrinho<i class="icon icon-arrow-io"></i>
+                    </button>
+                    <button type="button" class="view-btn tooltip
+                        d-flex">
+                      <i class="icon icon-screen-full"></i>
+                      <span class="tooltip-text">Visualizar</span>
+                    </button>
+                    <button type="button" class="wishlist-btn">
+                      <i class="icon icon-heart"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="discount">40% Off</div>
+                <div class="product-detail">
+                  <h3 class="product-title">
+                    <a href="single-product.html">Sailor moon branca com gatinho</a>
+                  </h3>
+                  <div class="item-price text-primary">
+                    <del class="prev-price">R$69.99</del>R$ 41,99
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product-item">
+                <img src="imgEstampa/aot estampa1 eren.jpeg" alt="Books" class="product-image">
+                <div class="cart-concern">
+                  <div class="cart-button d-flex justify-content-between align-items-center">
+                    <button type="button" class="btn-wrap cart-link d-flex align-items-center">adicionar ao carrinho<i class="icon icon-arrow-io"></i>
+                    </button>
+                    <button type="button" class="view-btn tooltip
+                        d-flex">
+                      <i class="icon icon-screen-full"></i>
+                      <span class="tooltip-text">Visualizar</span>
+                    </button>
+                    <button type="button" class="wishlist-btn">
+                      <i class="icon icon-heart"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="discount">20% Off</div>
+                <div class="product-detail">
+                  <h3 class="product-title">
+                    <a href="single-product.html">Attack on titan Eren preta</a>
+                  </h3>
+                  <div class="item-price text-primary">
+                    <del class="prev-price">R$ 59,99</del>R$ 47,99
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="shoppify-section-banner">
+      <div class="container">
+        <div class="product-collection">
+          <div class="left-content collection-item">
+            <div class="products-thumb">
+              <img src="img/chainsaw banner.jpg" alt="collection item" class="large-image image-rounded">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 product-entry">
+              <div class="categories">Coleção do dia</div>
+              <h3 class="item-title">Chainsaw Man</h3>
+              <p>Venha conhecer as novas estampas de Chainsaw Man com preços Imperdiveis!</p>
+              <div class="btn-wrap">
+                <a href="shop.html" class="d-flex align-items-center">Coleção<i class="icon icon-arrow-io"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>        
+      </div>
+    </section>
+
+    <section id="quotation" class="align-center padding-large">
+      <div class="inner-content">
+        <h2 class="section-title divider">Citação do dia</h2>
+        <blockquote>
+          <q>Nunca se está vestido demais ou mal vestido com um pretinho básico.</q>
+          <div class="author-name">- Karl Lagerfeld </div>
+        </blockquote>
+      </div>
+    </section>
+
+    <hr>
+    <section id="latest-blog" class="padding-large">
+      <div class="container">
+        <div class="section-header d-flex flex-wrap align-items-center justify-content-between">
+          <h2 class="section-title">Parceiros</h2>
+          <div class="btn-wrap align-right">
+            <a href="blog.html" class="d-flex align-items-center">Veja mais parceiros<i class="icon icon icon-arrow-io"></i>
+            </a>
+          </div>
+        </div>
+        <div class="row d-flex flex-wrap">
+          <article class="col-md-4 post-item">
+            <div class="image-holder zoom-effect">
+              <a href="https://gregorioschmidt.github.io/chocobom/">
+                <img src="img/gregparc.png" alt="post" class="post-image">
+              </a>
+            </div>
+            <div class="post-content d-flex">
+              <div class="meta-date">
+                <div class="meta-day text-primary">21</div>
+                <div class="meta-month">Nov-2023</div>
+              </div>
+              <div class="post-header">
+                <h3 class="post-title">
+                  <a href="https://gregorioschmidt.github.io/chocobom/">Fabrica de chocolate</a>
+                </h3>
+                <a href="blog.html" class="blog-categories">Chocolate</a>
+              </div>
+            </div>
+          </article>
+          <article class="col-md-4 post-item">
+            <div class="image-holder zoom-effect">
+              <a href="https://juliwya.github.io/matsuno/">
+                <img src="img/juliaparc.png" alt="post" class="post-image">
+              </a>
+            </div>
+            <div class="post-content d-flex">
+              <div class="meta-date">
+                <div class="meta-day text-primary">21</div>
+                <div class="meta-month">Nov-2023</div>
+              </div>
+              <div class="post-header">
+                <h3 class="post-title">
+                  <a href="https://juliwya.github.io/matsuno/">Culinaria Japonesa</a>
+                </h3>
+                <a href="blog.html" class="blog-categories">Culinaria</a>
+              </div>
+            </div>
+          </article>
+          <article class="col-md-4 post-item">
+            <div class="image-holder zoom-effect">
+              <a href="https://paivoteeee.github.io/paivascompany/#[object%20Object]">
+                <img src="img/paivotiparc.png" alt="post" class="post-image">
+              </a>
+            </div>
+            <div class="post-content d-flex">
+              <div class="meta-date">
+                <div class="meta-day text-primary">21</div>
+                <div class="meta-month">Nov-2023</div>
+              </div>
+              <div class="post-header">
+                <h3 class="post-title">
+                  <a href="https://paivoteeee.github.io/paivascompany/#[object%20Object]">Prestação de serviços</a>
+                </h3>
+                <a href="blog.html" class="blog-categories">Dinheiro</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="brand-collection" class="padding-medium bg-light-grey">
+      <div class="container">
+        <div class="d-flex flex-wrap justify-content-between">
+          <img src="img/Chainsaw_Man_logo.png" width="300" height="200" alt="phone" class="brand-image">
+          <img src="img/Jujutsu_Kaisen_logo.png" width="300" height="200"  alt="phone" class="brand-image">
+          <img src="img/Attack-on-Titan-Logo.png" width="300" height="200" alt="phone" class="brand-image">
+          <img src="img/Haikyuu-Logo.png" width="300" height="200" alt="phone" class="brand-image">
+          <img src="img/boku logo.png" width="300" height="200" alt="phone" class="brand-image">
+        </div>
+      </div>
+    </section>
+
+    
+
+    <section id="shipping-information">
+      <hr>
+      <div class="container">
+        <div class="row d-flex flex-wrap align-items-center justify-content-between">
+          <div class="col-md-3 col-sm-6">
+            <div class="icon-box">
+              <i class="icon icon-truck"></i>
+              <h4 class="block-title">
+                <strong>Frete grátis</strong> acima de R$100
+              </h4>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="icon-box">
+              <i class="icon icon-return"></i>
+              <h4 class="block-title">
+                <strong>Dinheiro de volta em</strong> 7 dias
+              </h4>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="icon-box">
+              <i class="icon icon-tags1"></i>
+              <h4 class="block-title">
+                <strong>Compre 4 e leve 5 camisetas</strong> 50% off
+              </h4>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="icon-box">
+              <i class="icon icon-help_outline"></i>
+              <h4 class="block-title">
+                <strong>Alguma duvida?</strong> os especialistas estão prontos
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </section>
+
+    <footer id="footer">
+      <div class="container">
+        <div class="footer-menu-list">
+          <div class="row d-flex flex-wrap justify-content-between">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="footer-menu">
+                <h5 class="widget-title">PokeArt</h5>
+                <ul class="menu-list list-unstyled">
+                  <li class="menu-item">
+                    <a href="about.html">Sobre</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="blog.html">Parceiros</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="footer-menu">
+                <h5 class="widget-title">Atendimento ao cliente</h5>
+                <ul class="menu-list list-unstyled">
+                  <li class="menu-item">
+                    <a href="contact.html">Contato</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="about.html">Informações de entrega</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="footer-menu">
+                <h5 class="widget-title">Contate-nos</h5>
+                <p>Você tem alguma duvida ou sugestão? <a href="#" class="email">as0914873@gmail.com</a>
+                </p>
+                <p>Você precisa de ajuda? Ligue para nós.<br>
+                  <strong>+55 19 98853-2984</strong>
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="footer-menu">
+                <h5 class="widget-title">PokeArt 2023</h5>
+                <p>PokeArt é uma loja de estampas criada ainda esse ano (2023), esperamos atender aos vossos gostos e agradar a todos!</p>
+                <div class="social-links">
+                  <ul class="d-flex list-unstyled">
+                    <li>
+                      <a href="https://pt-br.facebook.com/EtecRegistro/">
+                        <i class="icon icon-facebook"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://twitter.com/2020Etec">
+                        <i class="icon icon-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.youtube.com/@etecregistro2201">
+                        <i class="icon icon-youtube-play"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </footer>
+
+    <div id="footer-bottom">
+      <div class="container">
+        <div class="d-flex align-items-center flex-wrap justify-content-between">
+          <div class="copyright">
+            <p>Gabriel Alboneti 2023 - &copy Todos os direitos reservados <br>
+            Trabalho acadêmico sem fins lucrativos</p>
+          </div>
+          <div class="payment-method">
+            <p>Formas de pagamento: </p>
+            <div class="card-wrap">
+              <img src="images/visa-icon.jpg" alt="visa">
+              <img src="images/mastercard.png" alt="mastercard">
+              <img src="images/american-express.jpg" alt="american-express">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
